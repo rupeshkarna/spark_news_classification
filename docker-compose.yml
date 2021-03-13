@@ -1,0 +1,11 @@
+version: "2.4"
+services:
+  jupyter:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: news_classification
+    volumes:
+      - ./:/news_classification
+    ports:
+      - 0.0.0.0:8888:8888
