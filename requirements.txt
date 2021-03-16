@@ -3,3 +3,4 @@ numpy==1.20.1
 matplotlib==3.3.4
 plotly==4.14.3
 scikit-learn==0.24.1
+scikit-plot==0.3.7
